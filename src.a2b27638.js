@@ -72032,6 +72032,7 @@ module.exports = {
   "imprint": "Impressum",
   "privacy": "Datenschutz",
   "software": "Software",
+  "robots": "Roboter",
   "imprint-content": "i18n/imprint_de.html",
   "privacy-content": "i18n/privacy_de.html",
   "software-content": "i18n/software_de.html",
@@ -72093,6 +72094,7 @@ module.exports = {
   "imprint": "Imprint",
   "privacy": "Privacy Policy",
   "software": "Software",
+  "robots": "Robots",
   "imprint-content": "i18n/imprint_en.html",
   "privacy-content": "i18n/privacy_en.html",
   "software-content": "i18n/software_en.html",
@@ -80836,7 +80838,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61916" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55222" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
