@@ -72027,7 +72027,7 @@ module.exports = {
   "tutorial-7-heading": "Aus dem Kontext gerissen",
   "tutorial-7": "Das Kontext-Menü gibt dir weitere Optionen. Außerdem kannst du so deine Programme speichern und laden.",
   "tutorial-rf-heading": "Roboterführerschein",
-  "tutorial-rf": "Du möchtest noch mehr wissen oder dir war etwas unklar? Dann mach doch unseren kostenlosen {{link:Roboterführerschein|https://www.robotikschulungen.de}}",
+  "tutorial-rf": "Du möchtest noch mehr wissen oder dir war etwas unklar? Auf {{link:robotikschulungen.de|https://www.robotikschulungen.de}} findest du verschiedene kostenlose Kurse!",
   "license-note": "Rocksi wird unter der <a href=\"https://tldrlegal.com/license/mit-license\" target=\"_blank\">MIT Lizenz</a> veröffentlicht<br>",
   "imprint": "Impressum",
   "privacy": "Datenschutz",
@@ -72089,7 +72089,7 @@ module.exports = {
   "tutorial-7-heading": "Context is Everything",
   "tutorial-7": "The context menus give you additional control over your program. You can also load and save programs there!",
   "tutorial-rf-heading": "Robot Driver's License",
-  "tutorial-rf": "You want to know more about robots? Our free {{link:robot driver's license|https://www.robotikschulungen.de}} has you covered!",
+  "tutorial-rf": "You want to know more about robots? You can find some decent basic courses on {{link:robotikschulungen.de|https://www.robotikschulungen.de}} (unfortunately only in German right now).",
   "license-note": "Rocksi is distributed under the <a href=\"https://tldrlegal.com/license/mit-license\" target=\"_blank\">MIT license</a><br>",
   "imprint": "Imprint",
   "privacy": "Privacy Policy",
@@ -80838,7 +80838,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55222" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55339" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
