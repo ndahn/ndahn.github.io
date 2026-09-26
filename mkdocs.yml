@@ -40,6 +40,7 @@ theme:
 
 nav:
   - Home: index.md
+  - C'est Moi: about_me.md
   - Software: software.md
   - Stories: stories.md
   - Art: art.md
