@@ -65,4 +65,4 @@ Robotics is interesting, but most schools struggle to provide enough robots for 
 
 ![](assets/images/rocksi.png)
 
-[https://ndahn.github.io/rocksi/](https://ndahn.github.io/rocksi/)
+[https://ndahn.github.io/rocksi/](https://ndahn.github.io/Rocksi/)
