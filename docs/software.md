@@ -1,6 +1,6 @@
 # Software
 
-I love programming, maybe a bit too much. There is a structure in the way things work, and expressing these in clean code is just as enjoyable as designing the user experience around it. If I do something I want to do it right.
+I love programming, maybe a bit too much. There is a structure in the way things work, and expressing these in clean code is just as enjoyable as designing the user experience around it. If I do something I want to do it right. (1)
 { .annotate }
 
 1. The nicest ones are below, and the rest you can find on [github](https://github.com/ndahn/)
