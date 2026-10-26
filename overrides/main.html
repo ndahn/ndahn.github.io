@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+    <style>
+        .maris {
+            position: fixed;
+            bottom: 1.5rem;
+            right: 1.5rem;
+            z-index: 999;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            width: 10rem;
+            height: 10rem;
+            pointer-events: none; /* clicks pass through to page */
+        }
+    </style>
+{% endblock %}
+
+{% block content %}
+  {{ super() }}
+
+    <!--<div class="maris">
+        <img src="assets/images/maris.png">
+    </div>-->
+{% endblock %}
